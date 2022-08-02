@@ -139,7 +139,7 @@ public class StudentController {
         System.out.print("请输入姓名:");
         String name = sc.next();
         System.out.print("请输入年龄:");
-        int age = sc.nextInt();
+        String age = sc.next();
         System.out.print("请输入生日:");
         String birthday = sc.next();
         //2.将学生信息，封装为学生类对象
